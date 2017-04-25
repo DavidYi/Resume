@@ -1,0 +1,32 @@
+.resume{
+	overflow: hidden;
+	background-color: $body-background;
+	height: 100%;
+	width: 100%;
+}
+
+.main-container{//the actual content for the resume
+	overflow: hidden;
+	background-color: $resume-background;
+	height: 100%;
+	width: 700px;
+    padding: 0 25px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+}
+
+.flex-15{
+	order: 1;
+	flex: 0 0 15%;
+}
+
+.flex-85{
+	order: 2;
+	flex: 0 0 85%;
+}
+
+.page-title-container{
+	overflow: hidden;
+	display: inline;
+}

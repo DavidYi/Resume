@@ -1,0 +1,36 @@
+//all partials
+@import "../modules/all";
+
+//base partials
+html{
+	max-width: 100%;
+    height: 100%;
+	width: 100%;
+}
+
+body {
+	max-width: 100%;
+	height: 100%;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+
+	&:visited{
+		text-decoration: none;
+	}
+	&:active{
+		text-decoration: none;
+	}
+}
+
+.no-space{
+	padding: 0;
+	margin: 0;
+}
