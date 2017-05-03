@@ -12,21 +12,27 @@
 	width: 700px;
     padding: 0 25px;
     margin: 0 auto;
-    padding-top: 15px;
     display: flex;
 }
 
 .flex-15{
+	overflow: hidden;
+    margin-right: 10px;
 	order: 1;
 	flex: 0 0 15%;
+	background-color: $left-column;
 }
 
 .flex-85{
 	order: 2;
 	flex: 0 0 85%;
+    padding-top: 15px;
 }
 
 .page-title-container{
 	overflow: hidden;
-	display: inline;
+}
+
+.same-line{
+	display: inline-block;
 }

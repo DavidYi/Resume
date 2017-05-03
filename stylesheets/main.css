@@ -394,11 +394,19 @@ a {
   font-family: "Raleway";
   font-size: 30pt; }
 
+.name {
+  display: inline-block;
+  vertical-align: middle; }
+
 .picture {
   border-radius: 50%;
   float: left;
   height: 100px;
   margin-right: 20px; }
+
+.header-icons {
+  font-size: 10pt;
+  float: right; }
 
 .resume {
   overflow: hidden;
@@ -413,19 +421,24 @@ a {
   width: 700px;
   padding: 0 25px;
   margin: 0 auto;
-  padding-top: 15px;
   display: flex; }
 
 .flex-15 {
+  overflow: hidden;
+  margin-right: 10px;
   order: 1;
-  flex: 0 0 15%; }
+  flex: 0 0 15%;
+  background-color: #22A7F0; }
 
 .flex-85 {
   order: 2;
-  flex: 0 0 85%; }
+  flex: 0 0 85%;
+  padding-top: 15px; }
 
 .page-title-container {
-  overflow: hidden;
-  display: inline; }
+  overflow: hidden; }
+
+.same-line {
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */

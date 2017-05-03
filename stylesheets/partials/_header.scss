@@ -3,10 +3,19 @@
 	font-size: $header-title-size;
 }
 
+.name{
+	display: inline-block;
+	vertical-align: middle;
+}
 
 .picture{
 	border-radius: 50%;
 	float: left;
 	height: 100px;
 	margin-right: 20px;
+}
+
+.header-icons{
+	font-size: $header-icon-size;
+	float: right;
 }
