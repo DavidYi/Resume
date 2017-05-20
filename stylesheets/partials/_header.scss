@@ -1,12 +1,15 @@
+.header{
+    padding-bottom: 5px;
+    border-bottom: 2px solid $header-line-color;
+    padding-right: 10px;
+}
+
 .name-container{
+	height: 100px;
 	font-family: $header-title-family;
 	font-size: $header-title-size;
 }
 
-.name{
-	display: inline-block;
-	vertical-align: middle;
-}
 
 .picture{
 	border-radius: 50%;
@@ -18,4 +21,11 @@
 .header-icons{
 	font-size: $header-icon-size;
 	float: right;
+    height: 100px;
+    padding-right: 18px;
+}
+
+.icon-space{
+    padding-top: 2px;
+    padding-bottom: 2px;
 }

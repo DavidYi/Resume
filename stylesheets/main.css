@@ -5,8 +5,7 @@
  *    without disabling user zoom.
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,900");
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,800");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -364,8 +363,8 @@ html {
 body {
   max-width: 100%;
   height: 100%;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5vw;
+  font-family: "Open Sans";
+  font-size: 15px;
   padding: 0;
   margin: 0; }
 
@@ -378,6 +377,10 @@ a {
   a:active {
     text-decoration: none; }
 
+p {
+  padding: 0;
+  margin: 0; }
+
 .no-space {
   padding: 0;
   margin: 0; }
@@ -385,18 +388,32 @@ a {
 .first-name {
   margin: 0;
   padding: 0;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #22A7F0; }
 
 .last-name {
   font-weight: 300; }
 
-.name-container {
-  font-family: "Raleway";
-  font-size: 30pt; }
+.right-align {
+  float: right;
+  padding-right: 20pt; }
 
-.name {
-  display: inline-block;
-  vertical-align: middle; }
+.languages {
+  font-weight: 400; }
+
+.class {
+  font-style: italic;
+  font-weight: 400; }
+
+.header {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ddd;
+  padding-right: 10px; }
+
+.name-container {
+  height: 100px;
+  font-family: "Raleway";
+  font-size: 28pt; }
 
 .picture {
   border-radius: 50%;
@@ -406,7 +423,13 @@ a {
 
 .header-icons {
   font-size: 10pt;
-  float: right; }
+  float: right;
+  height: 100px;
+  padding-right: 18px; }
+
+.icon-space {
+  padding-top: 2px;
+  padding-bottom: 2px; }
 
 .resume {
   overflow: hidden;
@@ -418,27 +441,53 @@ a {
   overflow: hidden;
   background-color: #fff;
   height: 100%;
-  width: 700px;
+  width: 775px;
   padding: 0 25px;
   margin: 0 auto;
   display: flex; }
 
-.flex-15 {
+.flex-10 {
   overflow: hidden;
-  margin-right: 10px;
+  margin-right: 20px;
   order: 1;
-  flex: 0 0 15%;
+  flex: 0 0 10%;
   background-color: #22A7F0; }
 
-.flex-85 {
+.flex-88 {
   order: 2;
-  flex: 0 0 85%;
-  padding-top: 15px; }
+  flex: 0 0 88%;
+  padding-top: 15px;
+  font-size: 15px;
+  font-family: "Open Sans"; }
 
 .page-title-container {
   overflow: hidden; }
 
 .same-line {
   display: inline-block; }
+
+.title {
+  margin: 0;
+  padding-top: 8px;
+  font-weight: 800;
+  font-size: 25px; }
+
+.subtitle {
+  font-weight: 400;
+  font-style: italic; }
+
+.courses {
+  padding-left: 30px; }
+
+.info {
+  font-weight: 300;
+  font-size: 12px;
+  margin-right: 15px;
+  padding-bottom: 7px; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 /*# sourceMappingURL=main.css.map */

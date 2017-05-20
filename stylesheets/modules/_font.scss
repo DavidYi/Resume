@@ -1,16 +1,25 @@
 //font imports
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,900');
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,800');
 //Base font
-$base-font-family: 'Open Sans', sans-serif;
-$base-font-size: 1.5vw;
+$base-font-family: 'Open Sans';
+$base-font-size: 15px;
 
 //header title font
-$header-title-size: 30pt;
+$header-title-size: 28pt;
 $header-title-family: 'Raleway';
 $first-name-weight: 900;
 $last-name-weight: 300;
 
 //icon font size
 $header-icon-size: 10pt;
+
+//main portion of facebook
+$title-size: 25px;
+$title-weight: 800;
+$sub-title: 17px;
+$sub-title-weight: 400;
+$info-weight: 300;
+$info-size: 12px;
+$languages-weight: 400;
+$class-weight: 400;

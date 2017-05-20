@@ -1,0 +1,22 @@
+.title{
+    margin: 0;
+    padding-top: 8px;
+    font-weight: $title-weight;
+    font-size: $title-size;
+}
+
+.subtitle{
+    font-weight: $sub-title-weight;
+    font-style: italic;
+}
+
+.courses{
+    padding-left: 30px;
+}
+
+.info{
+    font-weight: $info-weight;
+    font-size: $info-size;
+    margin-right: 15px;
+    padding-bottom: 7px;
+}

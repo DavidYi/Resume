@@ -9,24 +9,26 @@
 	overflow: hidden;
 	background-color: $resume-background;
 	height: 100%;
-	width: 700px;
+	width: 775px;
     padding: 0 25px;
     margin: 0 auto;
     display: flex;
 }
 
-.flex-15{
+.flex-10{
 	overflow: hidden;
-    margin-right: 10px;
+    margin-right: 20px;
 	order: 1;
-	flex: 0 0 15%;
+	flex: 0 0 10%;
 	background-color: $left-column;
 }
 
-.flex-85{
+.flex-88{
 	order: 2;
-	flex: 0 0 85%;
+	flex: 0 0 88%;
     padding-top: 15px;
+    font-size: $base-font-size;
+    font-family: $base-font-family;
 }
 
 .page-title-container{
