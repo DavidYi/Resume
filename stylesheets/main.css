@@ -414,7 +414,7 @@ p {
 .name-container {
   height: 100px;
   font-family: "Raleway";
-  font-size: 28pt; }
+  font-size: 30pt; }
 
 .picture {
   border-radius: 50%;
@@ -443,15 +443,15 @@ p {
   background-color: #fff;
   height: 100%;
   width: 775px;
-  padding: 0 25px;
+  padding: 0 30px;
   margin: 0 auto;
   display: flex; }
 
-.flex-10 {
+.flex-9 {
   overflow: hidden;
   margin-right: 20px;
   order: 1;
-  flex: 0 0 10%;
+  flex: 0 0 9%;
   background-color: #22A7F0; }
 
 .flex-88 {
@@ -469,9 +469,9 @@ p {
 
 .title {
   margin: 0;
-  padding-top: 8px;
+  padding-top: 6px;
   font-weight: 800;
-  font-size: 25px; }
+  font-size: 22px; }
 
 .subtitle {
   font-weight: 400;
@@ -483,7 +483,7 @@ p {
 .info {
   font-weight: 300;
   font-size: 13px;
-  margin-right: 15px;
+  margin-right: 18px;
   padding-bottom: 6px; }
 
 .vertical-align {
