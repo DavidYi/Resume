@@ -404,10 +404,10 @@ p {
 .class {
   font-style: italic;
   font-weight: 400;
-  color: #22A7F0; }
+  color: #59ABE3; }
 
 .header {
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   border-bottom: 2px solid #ddd;
   padding-right: 10px; }
 
@@ -469,9 +469,9 @@ p {
 
 .title {
   margin: 0;
-  padding-top: 8px;
+  padding-top: 7px;
   font-weight: 800;
-  font-size: 25px; }
+  font-size: 23px; }
 
 .subtitle {
   font-weight: 400;
@@ -484,7 +484,15 @@ p {
   font-weight: 300;
   font-size: 13px;
   margin-right: 15px;
-  padding-bottom: 7px; }
+  padding-bottom: 3px; }
+
+.school-name {
+  font-weight: 400;
+  font-size: 17px;
+  color: #03A9F4; }
+
+.space {
+  padding-bottom: 5px; }
 
 .vertical-align {
   position: relative;
