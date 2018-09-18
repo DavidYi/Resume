@@ -5,7 +5,7 @@
  *    without disabling user zoom.
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,900");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,300,300i,400,400i,800");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -399,7 +399,8 @@ p {
   padding-right: 20pt; }
 
 .languages {
-  font-weight: 400; }
+  font-weight: 300;
+  color: #7f8c8d; }
 
 .class {
   font-style: italic;
@@ -408,7 +409,7 @@ p {
 
 .header {
   padding-bottom: 3px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #dadce0;
   padding-right: 10px; }
 
 .name-container {
@@ -485,6 +486,13 @@ p {
   font-size: 13px;
   margin-right: 15px;
   padding-bottom: 3px; }
+
+.info-list {
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px; }
 
 .school-name {
   font-weight: 400;
