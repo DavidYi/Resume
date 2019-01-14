@@ -415,7 +415,7 @@ p {
 .name-container {
   height: 100px;
   font-family: "Raleway";
-  font-size: 28pt; }
+  font-size: 35pt; }
 
 .picture {
   border-radius: 50%;
@@ -424,7 +424,7 @@ p {
   margin-right: 20px; }
 
 .header-icons {
-  font-size: 10pt;
+  font-size: 10.25pt;
   float: right;
   height: 100px;
   padding-right: 18px; }
@@ -472,7 +472,7 @@ p {
   margin: 0;
   padding-top: 7px;
   font-weight: 800;
-  font-size: 23px; }
+  font-size: 21px; }
 
 .subtitle {
   font-weight: 400;
