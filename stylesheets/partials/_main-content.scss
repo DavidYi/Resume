@@ -1,6 +1,6 @@
 .title{
     margin: 0;
-    padding-top: 7px;
+    padding-top: 6px;
     font-weight: $title-weight;
     font-size: $title-size;
 }
@@ -18,7 +18,6 @@
     font-weight: $info-weight;
     font-size: $info-size;
     margin-right: 15px;
-    padding-bottom: 3px;
 }
 
 .info-list{
@@ -27,14 +26,17 @@
     padding: 0;
     margin: 0;
     padding-left: 20px;
+    padding-bottom: 4px;
+    li {
+        margin-right: 25px;
+    }
 }
 
 .school-name{
     font-weight: $school-weight;
     font-size: $school-size;
-    color: $school-color;
 }
 
 .space{
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }

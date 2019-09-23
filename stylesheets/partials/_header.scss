@@ -1,7 +1,9 @@
 .header{
+	padding-top: 15px;
     padding-bottom: 3px;
     border-bottom: 1px solid $header-line-color;
-    padding-right: 10px;
+    padding-right: 0px;
+    margin:0;
 }
 
 .name-container{
@@ -10,6 +12,14 @@
 	font-size: $header-title-size;
 }
 
+
+.flex-lefth{
+	flex: 0 0 14.3%;
+}
+
+.flex-righth{
+	flex: 0 0 82%;
+}
 
 .picture{
 	border-radius: 50%;
@@ -22,7 +32,6 @@
 	font-size: $header-icon-size;
 	float: right;
     height: 100px;
-    padding-right: 18px;
 }
 
 .icon-space{

@@ -11,22 +11,29 @@
 	height: 100%;
 	width: 775px;
     padding: 0 25px;
+    padding-top: 7px;
     margin: 0 auto;
-    display: flex;
 }
 
-.flex-10{
+.main-content{
+	display: flex;
+	padding-bottom: 0px;
+}
+
+.flex-left{
 	overflow: hidden;
     margin-right: 20px;
 	order: 1;
-	flex: 0 0 10%;
-	background-color: $left-column;
+	flex: 0 0 15.3%;
+	//background-color: $left-column;
 }
 
-.flex-88{
+.flex-right{
 	order: 2;
-	flex: 0 0 88%;
-    padding-top: 15px;
+	flex: 0 0 82%;
+    padding-top: 13px;
+    padding-right: 0;
+    margin-right: 0;
     font-size: $base-font-size;
     font-family: $base-font-family;
 }

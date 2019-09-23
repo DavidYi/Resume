@@ -395,8 +395,8 @@ p {
   font-weight: 300; }
 
 .right-align {
-  float: right;
-  padding-right: 20pt; }
+  text-align: right;
+  float: right; }
 
 .languages {
   font-weight: 300;
@@ -408,14 +408,22 @@ p {
   color: #59ABE3; }
 
 .header {
+  padding-top: 15px;
   padding-bottom: 3px;
   border-bottom: 1px solid #dadce0;
-  padding-right: 10px; }
+  padding-right: 0px;
+  margin: 0; }
 
 .name-container {
   height: 100px;
   font-family: "Raleway";
   font-size: 35pt; }
+
+.flex-lefth {
+  flex: 0 0 14.3%; }
+
+.flex-righth {
+  flex: 0 0 82%; }
 
 .picture {
   border-radius: 50%;
@@ -426,8 +434,7 @@ p {
 .header-icons {
   font-size: 10.25pt;
   float: right;
-  height: 100px;
-  padding-right: 18px; }
+  height: 100px; }
 
 .icon-space {
   padding-top: 2px;
@@ -445,20 +452,25 @@ p {
   height: 100%;
   width: 775px;
   padding: 0 25px;
-  margin: 0 auto;
-  display: flex; }
+  padding-top: 7px;
+  margin: 0 auto; }
 
-.flex-10 {
+.main-content {
+  display: flex;
+  padding-bottom: 0px; }
+
+.flex-left {
   overflow: hidden;
   margin-right: 20px;
   order: 1;
-  flex: 0 0 10%;
-  background-color: #22A7F0; }
+  flex: 0 0 15.3%; }
 
-.flex-88 {
+.flex-right {
   order: 2;
-  flex: 0 0 88%;
-  padding-top: 15px;
+  flex: 0 0 82%;
+  padding-top: 13px;
+  padding-right: 0;
+  margin-right: 0;
   font-size: 15px;
   font-family: "Open Sans"; }
 
@@ -470,7 +482,7 @@ p {
 
 .title {
   margin: 0;
-  padding-top: 7px;
+  padding-top: 6px;
   font-weight: 800;
   font-size: 21px; }
 
@@ -484,23 +496,24 @@ p {
 .info {
   font-weight: 300;
   font-size: 13px;
-  margin-right: 15px;
-  padding-bottom: 3px; }
+  margin-right: 15px; }
 
 .info-list {
   font-weight: 300;
   font-size: 13px;
   padding: 0;
   margin: 0;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-bottom: 4px; }
+  .info-list li {
+    margin-right: 25px; }
 
 .school-name {
   font-weight: 400;
-  font-size: 17px;
-  color: #03A9F4; }
+  font-size: 17px; }
 
 .space {
-  padding-bottom: 5px; }
+  padding-bottom: 4px; }
 
 .vertical-align {
   position: relative;
