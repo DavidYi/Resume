@@ -1,13 +1,13 @@
 //font imports
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,900');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,300i,400,400i,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300i,400,400i,500,600,800');
 //Base font
 $base-font-family: 'Open Sans';
-$base-font-size: 15px;
+$base-font-size: 13px;
 
 //header title font
 $header-title-size: 35pt;
-$header-title-family: 'Raleway';
+$header-title-family: 'Open Sans';
 $first-name-weight: 900;
 $last-name-weight: 300;
 
@@ -15,13 +15,14 @@ $last-name-weight: 300;
 $header-icon-size: 10.25pt;
 
 //main portion of resume
-$title-size: 21px;
-$title-weight: 800;
-$sub-title: 17px;
+$title-size: 15px;
+$title-weight: 600;
+$sub-title: 13px;
 $sub-title-weight: 400;
 $info-weight: 300;
-$info-size: 13px;
+$info-size: 12px;
 $languages-weight: 300;
 $class-weight: 400;
-$school-weight: 400;
-$school-size: 17px;
+$school-weight: 500;
+$school-size: 13px;
+$date-weight: 200;

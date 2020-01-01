@@ -12,39 +12,30 @@
             <div class="header">
                 <div class="page-title-container">
                     <div class="main-content">
-                        <div class="flex-lefth name-container">
-                            <div class= "vertical-align">
-                            <div flex class="first-name">
-                                <p class="no-space">DAVID</p>
-                            </div>
-
-                            <div flex class="last-name" style="padding-left:7px;">
-                                <p class="no-space">YI</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="header-icons flex-righth right-align">
-                            <div class="vertical-align">
-                                <div flex class="phone icon-space">
+                        <div class="header-content">
+                            <p class="header-name">David Yi</p>
+                            <div class="header-icons right-align">
+                                <div flex class="icon-space">
+                                    <i class="fa fa-phone icon" aria-hidden="true"></i>
                                     (201) 485-1346 
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
                                 </div>
 
-                                <div flex class="email icon-space">
+                                <div flex class="icon-space">
+                                    <i class="fa fa-envelope icon" aria-hidden="true"></i>
                                     davidcyyi@rice.edu 
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </div>
 
-                                <div flex class="github icon-space">
-                                    DavidYi                          
-                                    <i class="fa fa-github" aria-hidden="true"></i>    
+                                <div flex class="icon-space">
+                                    <i class="fa fa-github icon" aria-hidden="true"></i>    
+                                    DavidYi                       
                                 </div>
 
-                                <div flex class=" icon-space">
+                                <div flex class="icon-space">
+                                    <i class="fa fa-linkedin icon"></i>
                                     davidcyyi
-                                    <i class="fa fa-linkedin"></i>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -54,127 +45,168 @@
 
             </div>
             <div class="main-content">
-                <div class="row"><!-- Where the main portion of the resume goes-->
-                    <div class="education main-content">
-                        <div class="flex-left"><p class="title">Education</p></div> 
-                        <div class="flex-right">
-                            <div class="school" style="padding-bottom: 5px">
-                                <p class="subtitle same-line"><span class="school-name">Rice University</span>&#8212;Houston, TX</p>
-                                <p class="right-align same-line">May 2022</p>
-                                <br>
-                                <p class="major space same-line">Bachelor of Science in Computer Science</p>
-                                <p class="right-align same-line">GPA: 3.48</p>
-                            </div>
-
-                            <div class="school">
-                                <p class="subtitle same-line"><span class="school-name">Bergen County Academies</span>&#8212; Hackensack, NJ</p>
-                                <p class="right-align same-line">Jun 2018</p>
-                                <br>
-                                <p class="major same-line">Academies of Technology and Computer Science </p>
-                                <p class="right-align same-line">GPA: 3.83</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Skills">
-
-                        <div class="main-content">
-                            <div class="flex-left"><p class="title">Skills</p></div>
-                            <div class="flex-right">
-                                <p class="subtitle">Programming Languages/Technologies:</p>
-                                <p class="info">Java, C++, Python, Flask (SQLAlchemy, Marshmallow), C, SQL, MongoDB, JavaScript, JQuery, Express, React, GraphQL, PHP, Laravel, HTML/CSS, Jinja2, Sass, Arduino, R, Dr.Racket, Swift, 6502 Assembly</p>
-
-                                <p class="subtitle">Topics:</p>
-                                <p class="info">Web App Development (MVC), Databases (CRUD), Data Structures, Algorithms, Processors/Logic Gates</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-
+                <div class="left-column">
                     <div class="Experience">
-                        <div class="main-content">
-                            <div class="flex-left"><p class="title">Experience</p></div>
-                            <div class="flex-right">
-                                <p class="subtitle same-line">RiceApps &#8212; Full Stack Engineer</p>
-                                <p class="right-align same-line">Sept 2019 - Present</p>
+                        <div>
+                            <p class="title">Experience</p>
+                            <div>
+                                <p class="subtitle same-line">RiceApps &#8212; <span class="color">Full Stack Engineer</span></p>
+                                <p class="right-align same-line date">Sept 2019 - Present</p>
                                 <ul class="info-list">
-                                    <li> Designing and develop a MERN & GraphQL (via Apollo-Client) Stack web-based application to create an environment for Rice University students to discuss about anything and Rice version of Ycombinator's Hacker News</li>
-                                    <li> Working in an industry-standard agile development cycle as a team of eight (weekly scrum and sprint sessions) </li>
+                                    <li> Designing and developing a MERN & GraphQL (via Apollo-Client) Stack web-based application to create an environment for Rice University students to discuss about anything and Rice version of Ycombinator's Hacker News</li>
+                                    <li> Working in an industry-standard agile development cycle as a team of eight (weekly scrum and sprint) </li>
                                 </ul>
+                                <!-- emphasize on impact, put key words, maybe bold some words, show if the app being used (reflects impact), other things that show impact is independence, leadership, make clear you meet minimum requirement so that you won't get screened out -->
 
-                                <p class="subtitle same-line"> Rice Center for Research Computing &#8212; Web App Developer</p>
-                                <p class="right-align same-line">May 2019 - Aug 2019</p>
+                                <p class="subtitle same-line"> Rice University &#8212; <span class="color">Web App Developer</span></p>
+                                <p class="right-align same-line date">May 2019 - Aug 2019</p>
                                 <ul class="info-list">
-                                    <li>Developed a file system interface Flask web app for image archiving on a CentOS 7 VM on Rice University research computing infrastructure</li>
-                                    <li>Created the entirety of the back end as well as connected the frontend to the backend that currently handles ~40k images with ~38k OCR text transcriptions</li>
-                                    <li>Designed and implemented the SQL database and created the scripts for it using raw sql texts and SQLAlchemy, a python ORM</li>
-                                    <li>Set up and maintained LAMP and International Image Interoperability Framework (IIIF) servers</li>
+                                    <li>Developed a file system interface Flask web app for image archiving on a CentOS 7 VM on Rice University research computing infrastructure as a team of two</li>
+                                    <li>Created the entirety of the back end and connected the frontend to the backend independently, currently being used by few researchers and handles ~40k images with ~38k OCR text transcriptions</li>
+                                    <li>Designed and implemented the SQL database and created the scripts for it using raw sql texts and SQLAlchemy alone</li>
+                                    <li>Set up and maintained LAMP and International Image Interoperability Framework servers alone</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
+                    <div class="Leadership">
+                        <p class="title">Leadership/Activities</p>
 
-                    <div class="Projects main-content">
-                        <div class="flex-left">
-                            <p class="title">Projects</p>
-                        </div>
-
-
-                        <div class="flex-right">
-                            <p class="subtitle same-line">Dodgeball <span class="languages">&#8212; JavaScript</span></p>
-                            <p class="right-align same-line">Sept 2019, May 2016 - Jun 2016</p>
+                        <div>
+                            <p class="subtitle same-line">East West Tea &#8212;<span class="color"> Shift Supervisor</span></p>
+                            <p class="right-align same-line date">Sept 2018 - Present</p>
                             <div class="info">
                                 <ul class="info-list">
-                                    <li>Recreated Dodgeball, or now known as Asteroid Belt (<a href="http://www.astroidbelt.surge.sh">astroidbelt.surge.sh</a>), for use in browser</li>  
-                                    <li>Programmed Dodgeball for BrightLogic’s Active Floor (interactive, touch-sensitive floor), becoming the most popular game out of 18 for the Active Floor in Bergen County Academies</li> 
-                                    <li>Designed two game modes: one where a player dodges balls and another where a player dodges "lasers"</li>    
+                                    <li>Managed employees during shift to maintain productivity and consistent positive customer experience</li>
+                                    <li>Ensured order and cleanliness of kitchens during operation hours</li>
+                                </ul>
+                            </div>
+
+                            <p class="subtitle same-line">Baker Residential College &#8212;<span class="color"> Webmaster</span></p>
+                            <p class="right-align same-line date">May 2019 - Present</p>
+                            <div class="info">
+                                <ul class="info-list">
+                                    <li>Maintain Baker College's Website and make additions as requested by Baker College's Student Run Government using SquareSpace</li>
+                                </ul>
+                            </div>
+
+                            <p class="subtitle same-line">Rice Taiwanese Association &#8212; <span class="color"> College Coordinator</span></p>
+                            <p class="right-align same-line date">Jan 2019 - Present</p>
+                            <div class="info">
+                                <ul class="info-list">
+                                    <li>Remain point of contact between RTA and Baker College</li>
+                                </ul>
+                            </div>
+
+
+                            <p class="subtitle same-line">New Life Fellowship &#8212;<span class="color"> Rides Coordinate</span></p>
+                            <p class="right-align same-line date">Aug 2019 - Present</p>
+                            <div class="info">
+                                <ul class="info-list">
+                                    <li>Organized rides for over 50 people to go to church and back to campus every week</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="Projects">
+                        <p class="title">Projects</p>
+
+                        <div>
+                            <p class="subtitle same-line">Full-Stack Social Media App<span class="languages">&#8212; MongoDB, Express, React, Node.JS</span></p>
+                            <div class="info">
+                                <ul class="info-list">
+                                    <li>Created a full-stack social media site using bootstrap and the MERN stack from scratch</li>
+                                    <li>Tested frontend and backend rigorously</li>
+                                    <li>The backend is hosted on Heroku (<span style="font-style: italic;">https://yo-backend-final.herokuapp.com</span>) and the front end is hosted on Surge (<span style="font-style: italic;">http://yo-app-frontend.surge.sh/</span>)</li>
+                                </ul>
+                            </div>
+
+                            <p class="subtitle same-line">Dodgeball <span class="languages">&#8212; JavaScript</span></p>
+                            <div class="info">
+                                <ul class="info-list">
+                                    <li>Independently programmed Dodgeball for BrightLogic’s Active Floor (interactive, touch-sensitive floor), and is currently the most popular game out of 18 for the Active Floor in Bergen County Academies</li> 
+                                    <li>Designed two game modes: one to dodges balls and another to dodge "lasers"</li> 
+                                    <li>Recreated Dodgeball, or now known as Asteroid Belt, for use in browser alone</li>  
                                 </ul>
                             </div>
 
                             <p class="subtitle same-line">Bergen County Veterans Service <span class="languages">&#8212; HTML, CSS, PHP, SQL, Laravel</span></p>
-                            <p class="right-align same-line">Sep 2017 - Jun 2018</p>
                             <div class="info">
                                 <ul class="info-list">
-                                    <li>Directed a team of three other students to redesign the Bergen County Veterans Service website in order to boost efficiency, productivity, and accessibility</li>
+                                    <li>Led a team of three other students to redesign the Bergen County Veterans Service website in order to boost efficiency, productivity, and accessibility</li>
                                     <li>Produced involving the database and the backend that dynamically brings data to display on a Google Chart API</li>
-                                </ul>
-                            </div>
-                        
-                            <p class="subtitle same-line">Web App Development <span class="languages">&#8212; HTML, CSS, PHP, SQL</span></p>
-                            <p class="right-align same-line">Dec 2015 - Jan 2017</p>
-                            <div class="info">
-                                <ul class="info-list">
-                                    <li>Revamped the school's registration sites as a group of 12 other people for electives, career day, proctors, and more to have enhanced utility, speed, accessibility, and usability</li>
-                                    <li>Implemented various parts in the backend, frontend, and database like creating PDF sign in sheets and room signs for each presentation in Career Day </li>
+                                    <li>Currently the website app is used by the Bergen County Director of the Veterans Affair</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="awards main-content">
-                        <div class="flex-left">
-                            <p class="title">Honors</p>
-                        </div>
-                        <div class="flex-right">
-                            <div class="space">
-                                <p class="subtitle same-line">Gold President's Volunteer Service Award <span class="info">&#8212; Corporation for National & Community Service</span></p>
-                                <p class="right-align same-line">Sep 2017</p>
+                </div>
+                <div class="right-column">
+                    <div class="education">
+                        <p class="title">Education</p>
+                        <div>
+                            <div class="school" style="padding-bottom: 15px">
+                                <p class="subtitle"><span class="school-name">Rice University </span>&#8212; Houston, TX</p>
+                                <p class="major info" style="padding-bottom: 5px">Bachelor of Science in Computer Science</p>
+                                <p class="info">GPA: 3.61/4.00</p>
+                                <p class="date">Expected May 2022</p>
                             </div>
 
-                            <div class="space">
-                                <p class="subtitle same-line">Best Twilio Hack <span class="info">&#8212; hackBCAIII</span></p>
-                                <p class="right-align same-line">Mar 2016</p>
+                            <div class="school">
+                                <p class="subtitle same-line"><span class="school-name">Bergen County Academies </span>&#8212; Hackensack, NJ</p>
+                                <br>
+                                <p class="major info" style="padding-bottom: 5px">Academy of Technology and Computer Science</p>
+                                <p class="info">GPA: 3.83/4.00</p>
+                                <p class="date">Jun 2018</p>
                             </div>
 
-                            <div class="space">
-                                <p class="subtitle same-line">AMC 10 Honor Roll <span class="info">&#8212; Mathematical Association of America</span></p>
-                                <p class="right-align same-line ">Feb 2016</p>
+                            <div class="coursework" style="padding-top: 20px; padding-bottom: 15px;">
+                                <p class="subtitle">Relevant Coursework</p>
+                                <p class="info">
+                                    Algorithmic Thinking (Data Structures/ Algorithms), Functional Programming, Statistics for Data Science, Web Development, Program Design, Computer Systems, Parallel Programming, Linear Algebra, Fundamental to Computer Engineering
+                                </p>
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+                    <div class="awards" style="padding-top: 20px; padding-bottom: 15px;">
+                        <p class="title">Honors</p>
+                        <div>
+                            <div class="space">
+                                <p class="subtitle">Gold President's Volunteer Service Award <span class="info">&#8212; Corporation for National & Community Service</span></p>
+                            </div>
+
+                            <div class="space">
+                                <p class="subtitle">Best Twilio Hack <span class="info">&#8212; hackBCAIII</span></p>
+                            </div>
+
+                            <div class="space">
+                                <p class="subtitle">AMC 10 Honor Roll <span class="info">&#8212; Mathematical Association of America</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Skills" style="padding-top: 20px; padding-bottom: 15px;">
+
+                        <div>
+                            <p class="title">Technical Skills</p>
+                            <div>
+                                <p class="subtitle">Web Development:</p>
+                                <p class="info skills">React, MongoDB, SQL, JavaScript, Git, GraphQL, Express, Flask, PHP, Laravel, HTML/CSS, Jinja2, Sass</p>
+
+                                <div class="space"></div>
+                                <p class="subtitle">Programming:</p>
+                                <p class="info skills">Java, Python, C, C++, Dr.Racket, R, Swift, 6502 Assembly, Excel</p>
+
+                                <div class="space"></div>
+                                <p class="subtitle">Topics:</p>
+                                <p class="info skills">Data Structures, Algorithms, Processors/Logic Gates, Testing (E2E/Unit)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         

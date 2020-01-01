@@ -1,23 +1,36 @@
 .resume{
-	overflow: hidden;
 	background-color: $body-background;
-	height: 100%;
 	width: 100%;
+}
+
+.date {
+	font-weight: $date-weight;
 }
 
 .main-container{//the actual content for the resume
 	overflow: hidden;
 	background-color: $resume-background;
-	height: 100%;
-	width: 775px;
-    padding: 0 25px;
-    padding-top: 7px;
+	height: 10in;
+	width: 8in;
+    padding: 0.25in .25in .5in .25in;
     margin: 0 auto;
 }
 
 .main-content{
 	display: flex;
-	padding-bottom: 0px;
+}
+
+.left-column {
+	word-wrap: normal;
+	flex: 0 0 62%;
+}
+
+.right-column {
+	word-wrap: normal;
+	flex: 0 0 36%;
+	margin-left: 20px;
+    font-size: $base-font-size;
+    font-family: $base-font-family;
 }
 
 .flex-left{

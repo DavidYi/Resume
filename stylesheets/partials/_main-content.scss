@@ -3,11 +3,16 @@
     padding-top: 6px;
     font-weight: $title-weight;
     font-size: $title-size;
+    color: $header-bold-color;
+    padding-bottom: 8px;
 }
 
 .subtitle{
     font-weight: $sub-title-weight;
-    font-style: italic;
+}
+
+.color {
+    color: $header-thin-color;
 }
 
 .courses{
@@ -28,8 +33,12 @@
     padding-left: 20px;
     padding-bottom: 4px;
     li {
-        margin-right: 25px;
+        margin-right: 10px;
     }
+}
+
+.skills {
+    padding-bottom: 10px;
 }
 
 .school-name{

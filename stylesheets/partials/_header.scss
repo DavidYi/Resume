@@ -1,9 +1,15 @@
 .header{
-	padding-top: 15px;
-    padding-bottom: 3px;
-    border-bottom: 1px solid $header-line-color;
+	padding-top: 5px;
+    padding-bottom: 4px;
+    //border-bottom: 1px solid $header-line-color;
     padding-right: 0px;
-    margin:0;
+    margin: 0;
+}
+
+.header-content {
+	display: flex;
+	padding: 0;
+	width: 100%;
 }
 
 .name-container{
@@ -12,29 +18,33 @@
 	font-size: $header-title-size;
 }
 
-
-.flex-lefth{
-	flex: 0 0 14.3%;
-}
-
-.flex-righth{
-	flex: 0 0 82%;
-}
-
-.picture{
-	border-radius: 50%;
+.header-name {
+	align-self: flex-end;
+	padding: 0px;
+	margin: 0;
+	font-size: 30px;
+	font-weight: 550;
 	float: left;
-	height: 100px;
-	margin-right: 20px;
+}
+
+.icon {
+	color: $header-bold-color;
 }
 
 .header-icons{
 	font-size: $header-icon-size;
 	float: right;
-    height: 100px;
+	display: flex;
+	height: 100%;
+	margin-left: auto;
+	margin-right: 0;
+	.icon-space {
+		align-self: flex-end;
+		padding-bottom: 10px;
+	}
 }
 
 .icon-space{
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 10px;
+    display: inline;
 }
